@@ -1,5 +1,5 @@
 {
-  "name": "closest-word",
+  "name": "closest-match",
   "version": "1.0.0",
   "description": "Uses Levenshtein Distance to find the closest string match or matches in an array",
   "main": "index.js",
