@@ -1,4 +1,6 @@
-function closest_word(target, array, max = 1) {
+module.exports = function closest_word(target, array, max = 1) {
+    if (!target || !array) throw new Error("Please input the correct inputs");
+    if (array.length === 0) return null;
     function distance(a, b) {
         if (a.length === 0) return b.length; 
         if (b.length === 0) return a.length;
@@ -35,5 +37,3 @@ function closest_word(target, array, max = 1) {
     if (max === 1) found = found[0];
     return found;
 }
-
-module.exports = closest_word;

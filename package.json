@@ -1,7 +1,7 @@
 {
   "name": "closest-word",
   "version": "1.0.0",
-  "description": "Uses Levenshtein Distance to find the closest string match in an array",
+  "description": "Uses Levenshtein Distance to find the closest string match or matches in an array",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
