@@ -22,7 +22,7 @@ function closest_word(target, array, max = 1) {
     for (let i = 0; i < array.length; i++) vals.push(distance(target, array[i]));
     let found = [];
     for (let i = 0; i < vals.length; i++) {
-        if (vals[i] === Math.min(...vals) && vals[i] <= threshold) found.push(array[i]);
+        if (vals[i] === Math.min(...vals)) found.push(array[i]);
     }
     if (found.length > max) {
         let exact;
