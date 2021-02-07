@@ -9,11 +9,11 @@ This module finds the closest string match or matches in an array using livensht
 # Examples
 
 ```
-const closest-word = require("closest-word");
+const closest_word = require("closest-word");
 
 //normal usage
-console.log(closest-word("dag", ["dog", "pumpkin"])); //dog
+console.log(closest_word("dag", ["dog", "pumpkin"])); //dog
 
 //multiple values
-console.log(closest-word("hello", ["jello", "yellow", "bello"], 2)); //["jello", "bello"]
+console.log(closest_word("hello", ["jello", "yellow", "bello"], 2)); //["jello", "bello"]
 ```

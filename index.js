@@ -36,4 +36,4 @@ function closest_word(target, array, max = 1) {
     return found;
 }
 
-module.exports.closest_word = closest_word;
+module.exports = closest_word;
