@@ -1,4 +1,4 @@
-module.exports = function closest_word(target, array, max = 1) {
+module.exports = function closest_match(target, array, max = 1) {
     if (!target || !array) throw new Error("Please input the correct inputs");
     if (array.length === 0) return null;
     function distance(a, b) {
